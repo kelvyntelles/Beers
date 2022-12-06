@@ -1,0 +1,36 @@
+.body {
+    background-color: #000
+}
+
+.header {
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-header {
+    margin-right: 40px;
+    font-size: 35px;
+}
+
+.cor-padrao {
+    color: white
+}
+
+.area-info {
+    margin-top: 20px;
+}
+
+.area-card-bebidas {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.produto {
+    width: 160px;
+    height: 160px;
+    margin-right: 30px
+}

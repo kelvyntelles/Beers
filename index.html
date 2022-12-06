@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+  <body class="body">
+    <header class="header">
+        <div class="text-header">
+            Beers
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="area-info">
+
+            <div class="card bg-black">
+                <div class="card-header">
+                  <h1 class="cor-padrao" id="nome">Heineken</h1>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="cor-padrao" id="descricao">Heineken International é uma cervejaria holandesa, fundada em 1863 por Gerard Adriaan Heineken na cidade de Amsterdã. Heineken possui cerca de 140 cervejarias em mais de 70 países, empregando aproximadamente 85.000[2] pessoas. Com uma produção anual de 121 800 000 de hectolitros de cerveja, é a terceira maior cervejaria do mundo, ficando atrás apenas da belgo-brasileira ABInBev e da anglo-sul-africana SABMiller em 2009. Em 2019 teve lucro de 2,17 bilhões de dólares.</p>
+                  </blockquote>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="area-card-bebidas">
+            <a href="#" onclick="heineken()">
+                <div class="produto">
+                    <img src="https://pbs.twimg.com/profile_images/1518574850847166466/NgVoLsIk_400x400.jpg" class="img-thumbnail">
+                </div>
+            </a>
+
+            <a href="#" onclick="budweiser()">
+                <div class="produto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRahELFwuLRxtkV2T5MhmgpIzXRDZiUjHwb3MV-1S94-9j05ftFCJqC_pLiCZoiHaeDEE8&usqp=CAU" class="img-thumbnail">
+                </div>
+            </a>
+
+            <a href="#" onclick="stella()">
+                <div class="produto">
+                    <img src="https://cf.shopee.com.br/file/3aa4daabf591a65d62750a2fae1d07a0" class="img-thumbnail">
+                </div>
+            </a>
+
+            <a href="#" onclick="sol()">
+                <div class="produto">
+                    <img src="https://static.giulianaflores.com.br/images/product/4260-PLRSOL-MP_0.jpg?ims=750x750" class="img-thumbnail">
+                </div>
+            </a>
+
+            <a href="#" onclick="duff()">
+                <div class="produto">
+                    <img src="https://cdn.awsli.com.br/800x800/684/684977/produto/134309586/273d153f46.jpg" class="img-thumbnail">
+                </div>
+            </a>
+
+            <a href="#" onclick="amstel()">
+                <div class="produto">
+                    <img src="https://cdn.iset.io/assets/55268/produtos/21046/placa-decorativa-tampa-de-garrafa-amstel-cerveja-1.jpg" class="img-thumbnail">
+                </div>
+            </a>
+        </div>
+        
+    </div>
+
+    <script>
+        function heineken() {
+            document.getElementById("nome").innerHTML="Heineken"
+            document.getElementById("descricao").innerHTML="Heineken International é uma cervejaria holandesa, fundada em 1863 por Gerard Adriaan Heineken na cidade de Amsterdã. Heineken possui cerca de 140 cervejarias em mais de 70 países, empregando aproximadamente 85.000[2] pessoas. Com uma produção anual de 121 800 000 de hectolitros de cerveja, é a terceira maior cervejaria do mundo, ficando atrás apenas da belgo-brasileira ABInBev e da anglo-sul-africana SABMiller em 2009. Em 2019 teve lucro de 2,17 bilhões de dólares."
+        }
+
+        function budweiser() {
+            document.getElementById("nome").innerHTML="Budweiser"
+            document.getElementById("descricao").innerHTML="Budweiser, também conhecida popularmente como Bud, é uma cerveja do tipo long americana, fabricada pela AB InBev, fundada em 1876. Tem sua versão light, a Bud Light, que é a cerveja mais consumida nos Estados Unidos."
+        }
+
+        function stella() {
+            document.getElementById("nome").innerHTML="Stella Artois"
+            document.getElementById("descricao").innerHTML="A Stella Artois é uma cerveja pilsen lager (de baixa fermentação) premium, que tem suas origens em uma tradicional cervejaria chamada Den Hoorn (O Chifre), que data em 1366, uma das mais antigas do mundo. Fabricada desde 1926 na cidade de Leuven, no interior da Bélgica, berço de algumas dos melhores mestres cervejeiros do mundo, a Stella Artois é uma cerveja premium, de sabor balanceado e marcante. Resultado de mais de 600 anos de tradição, a Stella Artois é atualmente uma das marcas mais proeminentes da Anheuser-Busch InBev, a maior cervejaria do mundo."
+        }
+
+        function sol() {
+            document.getElementById("nome").innerHTML="Sol"
+            document.getElementById("descricao").innerHTML="Sol é uma marca de cerveja mexicana produzida pela empresa Cervecería Cuauhtémoc-Moctezuma (empresa fundada em 1890 na cidade de Monterrey e pertencente ao grupo FEMSA[1]) e produzida desde 1899. No Brasil, a marca foi lançada em outubro de 2006 e voltada para o público jovem. A cerveja é produzida e envasada pela Heineken (Grupo dona das empresas FEMSA) em sua fábrica localizada na cidade de Araraquara."
+        }
+
+        function duff() {
+            document.getElementById("nome").innerHTML="Duff"
+            document.getElementById("descricao").innerHTML="A Duff Beer é comercializada no mundo real por diversas empresas sem autorização oficial ou consentimento do criador de Os Simpsons, Matt Groening.[2] Groening declarou que não pretendia jamais licenciar a marca Duff para uma bebida alcoólica verdadeira por temer encorajar crianças a beber, entretanto nenhum procedimento contra o uso é conhecido, permitindo o estímulo de consumo entre menores."
+        }
+
+        function amstel() {
+            document.getElementById("nome").innerHTML="Amstel"
+            document.getElementById("descricao").innerHTML="Amstel Brewery é uma cervejaria holandesa fundada em 1870 na Mauritskade em Amsterdã. Foi adquirida pela Heineken International em 1968, e a fábrica de cerveja foi fechada em 1982, com a produção sendo transferida para a fábrica principal da Heineken em Zoeterwoude."
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
